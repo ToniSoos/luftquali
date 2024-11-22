@@ -1,0 +1,34 @@
+body {
+
+    background-color: #87ceeb;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+.weatherCon {
+    background-color: rgb(228, 231, 38);
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 10px 10px 10px #fff;
+    justify-content: space-evenly;
+}
+
+input {
+    width: 125px;
+}
+
+button {
+    width: 75px;
+}
+
+p{
+    font-size: 30px;
+}
