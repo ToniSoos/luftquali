@@ -1,3 +1,7 @@
+* {
+    font-family: monospace;
+}
+
 body {
 
     background-color: #87ceeb;
@@ -23,12 +27,27 @@ body {
 
 input {
     width: 125px;
+    color: black;
+    border: solid;
 }
 
 button {
     width: 75px;
+    color: black;
+    background-color:white;
+    font-weight: bolder;
+    border: solid;
+    border-color: black;
 }
 
 p{
     font-size: 30px;
+    color: black;
+    font-weight: bolder;
+}
+
+ul {
+    font-size: 15px;
+    color: black;
+    font-weight: bolder;
 }
